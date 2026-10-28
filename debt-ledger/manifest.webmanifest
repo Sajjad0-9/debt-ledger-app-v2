@@ -1,0 +1,57 @@
+{
+  "name": "سجل الديون - إدارة حسابات الزبائن",
+  "short_name": "سجل الديون",
+  "description": "تطبيق ويب عربي خفيف لإدارة ديون ومبيعات الزبائن للمحلات التجارية بالدينار العراقي",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#1e3a8a",
+  "dir": "rtl",
+  "lang": "ar",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "بيع بالأجل (فاتورة)",
+      "short_name": "فاتورة جديدة",
+      "description": "تسجيل فاتورة دين جديدة لزبون",
+      "url": "./index.html#/invoice",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "تسجيل تسديد",
+      "short_name": "تسديد",
+      "description": "استلام دفعة نقدية وسداد دين",
+      "url": "./index.html#/payment",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "قائمة الزبائن",
+      "short_name": "الزبائن",
+      "description": "استعراض سجل الزبائن والديون",
+      "url": "./index.html#/customers",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
